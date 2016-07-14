@@ -30,6 +30,8 @@ class GDDRegex {
         string        Expression;
 
         static void Shortcut2Posix(string &text);   // convert single char shortcut to posix regex
+            // see https://en.wikipedia.org/wiki/Regular_expression#POSIX
+            // also see: http://stackoverflow.com/questions/37956719/when-using-regex-in-c-d-does-not-work-but-0-9-does
 
 };
 #endif  /**  __cplusplus            **/
