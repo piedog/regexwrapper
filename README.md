@@ -6,6 +6,7 @@ Objectives:
     1. determine if a text string matches the regular expression pattern
     2. if parentheses are used for grouping, provide the ability to retrieve each group
     3. limit dependencies to the POSIX regex library
+    4. do not rely onthe C++11 regex since it was not fully implemented until GCC 4.9.0.
 
 Usage:
 
